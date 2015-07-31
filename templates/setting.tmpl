@@ -1,0 +1,108 @@
+<!-- templates/setting.tmpl -->
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header"><i class="fa fa-gear fa-fw"></i> Setting</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            rs232
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Baudrate</label>
+                                            <input class="form-control" placeholder="115200">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Data bits</label>
+                                            <select class="form-control">
+                                                <option>5</option>
+                                                <option>6</option>
+                                                <option>7</option>
+                                                <option selected>8</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Parity</label>
+                                            <select class="form-control">
+                                                <option>None</option>
+                                                <option>Odd</option>
+                                                <option>Even</option>
+                                                <option>Mark</option>
+                                                <option>Space</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Stop bits</label>
+                                            <select class="form-control">
+                                                <option>1</option>
+                                                <option>1.5</option>
+                                                <option>2</option>
+                                            </select>
+                                        </div>
+
+					<button type="submit" class="btn btn-primary">Submit Button</button>
+                                        <button type="reset" class="btn btn-default">Reset Button</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- /.row (nested) -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+	    
+	    <!-- /.row -->
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            tcp-server
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <form role="form">
+                                        <div class="form-group">
+                                            <label>Address</label>
+                                            <input class="form-control" placeholder="0.0.0.0">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label>Port</label>
+                                            <input class="form-control" placeholder="8765">
+                                        </div>
+
+					<button type="submit" class="btn btn-primary">Submit Button</button>
+                                        <button type="reset" class="btn btn-default">Reset Button</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <!-- /.row (nested) -->
+                        </div>
+                        <!-- /.panel-body -->
+                    </div>
+                    <!-- /.panel -->
+                </div>
+                <!-- /.col-lg-12 -->
+	    
+	    <!-- /.row -->
+            </div>	
+	</div>
+        <!-- /#page-wrapper -->
